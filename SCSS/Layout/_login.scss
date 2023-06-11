@@ -1,0 +1,88 @@
+/*LOG IN*/
+.logIn{
+    margin: 3em 1em;
+    @include sizes(30em,21em);
+    background-color: $grey-color;
+    backdrop-filter: blur(4px);
+    border-radius: 1em;
+    box-shadow: 1px 1px 41px -2px rgba(0,0,0,0.64);
+    p{
+        text-align: center;
+        font-weight: 100;
+        font-size: 1em;
+        line-height: 1em;
+        padding: 0.3em;
+        text-decoration: none;
+        color: #ffffff9b;
+        margin-bottom: -0.1em;
+    }
+
+    h5{
+        text-align: center;
+        font-family:$font-Bebas;
+        font-weight: 100;
+        font-size: 2.5em;
+        line-height: 1em;
+        padding: 0.3em;
+        text-decoration: none;
+        color:#ffffff;
+        background-color: #00000000;
+        margin-bottom: -0.1em;
+    }
+    .form__text{
+        margin: 1em 0em;
+    }
+    .form__text--t{
+        color: #ffffff9b;
+        text-decoration: none;
+        font-size: 0.9em;
+        margin-bottom: 0.8em;
+        transition: 0.5s;
+            &:hover{
+            color: $sheer-white-color;
+            text-decoration: underline;
+            font-size: 0.9em;
+    }
+}
+}
+.form__logo{
+    display: flex;justify-content: center;
+
+    img{
+        @include sizes(5em,4em);
+    }
+}
+.form__inputmail::placeholder, .form__inputpassword::placeholder{
+    font-size: 1em;
+    color: $sheer-white-color;
+    background-color: #00000000;
+}
+.form__inputmail, .form__inputpassword{
+    background-color: #00000000;
+    border: none;
+    border-bottom: 1px solid $sheer-white-color;
+    width:80%;
+}
+.logIn-register{
+    @include sizes(40em,100%);
+}
+.logIn-restore{
+    @include sizes(40em, 100%);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #1e1e1e48;
+    font-weight: 600;
+    padding: 0.7em 1.5em;
+    border-radius: 1em;
+    border: none;
+    margin: auto;
+    transition:0.3s;
+        &:hover{
+        color:$purple-color;
+        background-color:$grey-color;
+        border: none;
+    }
+}

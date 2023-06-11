@@ -1,0 +1,57 @@
+/*COLOR VARIABLES*/
+$grey-color:#00000033;
+$purple-color:#870CE8;
+$sheer-white-color: #ffffffb9;
+$blue: #5cc8fe;
+$font-Bebas:'Bebas Neue', sans-serif;
+
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
+/*RESET and BACKGROUND*/
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(/imagenes/Background-Landing-Page.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar { width: 0.5em;}
+::-webkit-scrollbar-track {background: #ffffff;}
+::-webkit-scrollbar-thumb {background: #ba79ff;border-radius: 0.5em;}
+::-webkit-scrollbar-thumb:hover {background: #cb9cfd;}
+
+/*HEADER*/
+@import './Layout/header-footer';
+/*INDEX*/
+@import './Layout/index';
+/*ABOUT US*/
+@import './Layout/about-us';
+/*COACHES*/
+@import './Layout/coaches';
+/*COACHES*/
+@import './Layout/program';
+/*OPINIONS*/
+@import './Layout/opinions';
+/*LOGIN*/
+@import './Layout/login';
+
+/*RESPONSIVE*/
+@import './Layout/responsive';

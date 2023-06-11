@@ -1,0 +1,107 @@
+.landing{
+    color: #ffffff;
+        h1{
+            font-family:$font-Bebas;
+            font-weight: 100;
+            text-align: center;
+            font-size: 4em;
+            margin-top: 0.5em;
+        }
+        h3{
+            text-align: center;
+            font-size: 1.2em;
+            margin: 0.3em;
+        }
+}
+.row-xl-12 h1{font-size: 5em;} 
+.row-xl-12 h3{font-size: 5em;}
+
+#alinear{
+    display: flex;
+    justify-content: center;
+    ul{
+        position: relative;
+        z-index: -1;
+        display:inline-flex;
+        justify-content: space-around;
+        width: 35em;
+        padding: 0.7em;
+        border-radius:1em;
+        margin: 2em 1em 1em;
+        background-color:$grey-color;
+        backdrop-filter: blur(10px);
+        box-shadow: -19px 1px 75px 0px rgba(0, 0, 0, 0.41);
+    
+        h6 i{
+            margin: 0.5em;
+            color:$blue;
+        }
+        h6{
+            font-size: 1em;
+        }
+    }
+}
+.landing__list-2 h6{ margin-left: 4em;}
+.col-sm-6 h6{margin-left: 0;/*En vez de usar media query*/}
+.col-sm-6 h6 i{color:  #dc5eff;}
+
+.buttons a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 12em;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 0.3em 1em;
+    transition: 0.3s;
+}
+.buttons__1{
+    background-color:#890ce86a;
+        &:hover{
+            text-decoration: none;
+            background-color:#ffffff;
+            color:$purple-color;
+            border: 1px solid $purple-color;
+        }
+}
+.buttons__2{
+    border: 1px solid $sheer-white-color;
+    &:hover{
+        color:#ffffff ;
+        text-decoration: none;
+        background-color: #ffffff20;
+}
+}
+#seguinos{
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    color:#ffffff;
+}
+.div1__socialmedia{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    width: 30em;
+    margin-top: 1em;
+    a{
+        background-color: $grey-color;
+    }
+    i{
+        color:$purple-color;
+        background-color: #ffffff;
+        font-size: 1.3em;
+        padding: 0.3em;
+        transition: 0.2s;
+        &:hover{
+            color:#b359f7;
+        }
+    }
+}
+/*INDEX END*/

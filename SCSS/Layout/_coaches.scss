@@ -1,0 +1,120 @@
+
+.article-coaches{
+    display: flex;
+}
+.div1{
+    position: sticky;
+    top: 1px;
+    background: hsla(281, 100%, 67%, 1);
+    background: radial-gradient(circle, hsla(281, 100%, 67%, 1) 0%, hsla(200, 75%, 60%, 1) 100%);
+    height: 100vh;
+    box-shadow: 1px 1px 41px -2px rgba(0,0,0,0.64);
+     h1{
+        text-align: center;
+        margin: 1em 0.2em 0em;
+        font-size: 3.4em;
+        font-family: 'Bebas Neue', sans-serif;
+        color: rgb(255, 255, 255);
+        padding: 0.5em 0em 0.3em;
+    }
+    a{
+        color: rgb(255, 255, 255);
+        font-family: 'Bebas Neue', sans-serif;
+        background:#00000030;
+        font-size:2.2em;
+        margin: 1em;
+        border-radius: 1em;
+        padding: 0.4em;
+        transition: 0.4s;
+        &:hover{
+            text-decoration: none;
+            color:$purple-color; 
+            background-color:  #fffffff0;
+        }
+    }
+    p,h3{
+        margin: 0.5em 0.1em 0em;
+        color: #fffffff0;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    p{
+        font-size: 1.4em; 
+        margin-bottom: 1.5em;
+    }
+}
+.coaches-socialmedia{
+    display: flex;
+    justify-content: space-around;
+    background-color: $sheer-white-color;
+    border-radius: 2em;
+    text-align: center;
+    height: 3.5em;
+
+     a{
+        background-color: #ffffff00;
+        margin-top: -0.3em;
+          &:hover{
+             background-color: #00000000;
+        }
+    }
+     i{
+        color:$purple-color;
+        font-size: 0.9em;
+        transition: 0.2s;
+        margin: -3em;
+
+        &:hover{
+            background-color: #ffffff00;
+            color:#b359f7; 
+        }
+    }
+}
+
+/*COACHES DIV*/
+.div2{
+margin-top: 2em;
+}
+.coaches{
+    margin-left: 1em;
+        div{ text-align: center;}
+        img{
+            @include sizes(13em,13em);
+            border-radius: 10em;
+        }
+        h5{margin-top: 0.3em;}
+        h5,h6{
+            color: #fffffff0;
+            font-family:$font-Bebas;
+            font-size: 1.8em;
+        }
+        h6{
+            color:$purple-color;
+            text-decoration: overline 2px;
+            margin-top: 0.4em;
+        }
+}
+.text{
+    font-size: 1.7em;
+    color: #ffffff;
+    margin:1em;
+    text-align: center;
+}
+.link{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    font-size: 2.5em;
+    color:  #ffffff;
+    padding: 0.4em 2em;
+    border:1px solid #ffffff;
+    border-radius: 1em;
+    background-color:$grey-color;
+    transition: 0.2s;
+    margin-bottom: 1em;
+
+    &:hover{
+        text-decoration: none;
+        background-color: #ffffff;
+        color:$blue;
+    }
+}

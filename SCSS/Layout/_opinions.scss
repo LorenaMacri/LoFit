@@ -1,0 +1,33 @@
+.title-opinion{
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5em;
+    margin-top: 0.8em;
+}
+.article__div{
+    margin: 1.5em;
+    flex-wrap: wrap;
+    .article__div--text{
+        margin: 1em;
+    }
+    img{
+        @include sizes(13em,13em);
+        border-radius: 7em;
+        box-shadow: 1px 1px 41px -2px rgba(0,0,0,0.64);        
+    }
+
+    div{
+         h4{
+            color: rgb(255, 255, 255);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.823);
+        
+         }
+         p{
+            color: rgba(255, 255, 255, 0.896);   
+            font-size: 1.2em;
+            font-weight: 100;
+         }
+    }
+}

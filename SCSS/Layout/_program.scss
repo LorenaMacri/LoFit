@@ -1,0 +1,51 @@
+.title{   
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+.program-card{
+    width: 20em;
+    margin: 1em;
+    border: none;
+    h5,h6{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        color:#ffffff;
+        background-color: #890ce87a;
+        font-family:$font-Bebas;
+        font-size: 3.5em;
+        border-radius: 0.2em;  
+    }
+    h6{
+        display: flex;
+        font-weight: 700;
+         background-color: #ffffff;
+         color:$purple-color;
+         border-radius: 0.2em;
+    }
+    div{
+        border: none;
+        transition: 0.3s;
+        border-radius: 0.1em; 
+        &:hover{
+          background-color:$grey-color;
+        } 
+    }
+}
+#pay{
+    background-color: #890ce87a;
+   &:hover{
+        background-color: #6001a97a;
+    }
+}
+#lock{
+    background-color: #6001a900;
+    i{
+        color:rgb(255, 255, 255);
+    }
+}
+  
