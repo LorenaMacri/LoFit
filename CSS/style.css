@@ -67,7 +67,7 @@ body {
 
 /*nav menu*/
 .nav {
-  width: 25vh;
+  width: 20vh;
   height: 100%;
   position: fixed;
   overflow: hidden;
@@ -139,10 +139,10 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
 }
-footer h6 {
+footer a {
   color: rgba(255, 255, 255, 0.7254901961);
   font-size: 1em;
-  padding: 0.5em;
+  padding: 1em;
 }
 
 /*INDEX*/

@@ -19,7 +19,7 @@
 }
  /*nav menu*/
  .nav{
-    @include sizes(25vh,100%);
+    @include sizes(20vh,100%);
     position: fixed;
     overflow: hidden;
     right: 0;
@@ -75,9 +75,9 @@ footer{
     margin-top: 1.5em;
     background-color:$grey-color;
     backdrop-filter: blur(5px);
-    h6{
+    a{
         color:$sheer-white-color;
         font-size: 1em;
-        padding: 0.5em; 
+        padding: 1em; 
     }
 }
